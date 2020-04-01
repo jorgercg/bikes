@@ -1,6 +1,6 @@
 # Bikes
 
-A Flutter Demo App project.
+A Flutter Demo App project (Mobile only).
 
 ## General Usage Description
 
