@@ -4,7 +4,7 @@ A Flutter Demo App project.
 
 ## General Usage Description
 
-When you first execute the app, starting from a local asset file, a list of [Bike](./lib/src/model/bike_model.dart) entities is populated and shown to the user in a [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html) composed of a series of [Card](https://api.flutter.dev/flutter/material/Card-class.html) entities.
+When you first execute the app, starting from a local asset file, a list of [Bike](./lib/src/models/bike_model.dart) entities is populated and shown to the user in a [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html) composed of a series of [Card](https://api.flutter.dev/flutter/material/Card-class.html) entities.
 
 In each of those [BikeListCard](./lib/src/widgets/cards/bike_list_card.dart) cards there is a [ButtonBar](https://api.flutter.dev/flutter/material/ButtonBar-class.html) where you will find the edit and delete actions with the expected consequences. A single tab in the card opens a [BikeDetailScreen](./lib/src/screens/bike_detail_screen.dart) showing more characteristics of the selected bike. Furthermore, you can pinch-zoom the bike image.
 
