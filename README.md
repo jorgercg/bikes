@@ -12,9 +12,9 @@ On the bottom right of the main view there is a [FloatingActionButton](https://a
 
 ## State Management
 
-In this project we use Redux as the main state management architecture. Even tough in this simple case it could appear as overkill, we have in mind the scalability of such an approach focusing on much larger applications.
+In this project we use [Redux](https://pub.dev/packages/redux) as the main state management architecture. Even tough in this simple case it could appear as overkill, we have in mind the scalability of such an approach focusing on much larger applications.
 
-In the same manner, a RxDart-only BLoC system was used to the edit view, also in order to keep things pretty scalable.
+In the same manner, a [RxDart](https://pub.dev/packages/rxdart)-only BLoC system was used to the edit view, also in order to keep things pretty scalable.
 
 When expanding this concept, we would have the same Redux type central store and there would be a dedicated BLoC to each edit view in the larger application.
 
